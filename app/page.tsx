@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 
-const CONTRACT_TEXT = "Launching soon on Robinhood Chain";
-const X_URL = "https://x.com/ledgerune";
+const CONTRACT_TEXT = "0xEf0A0C5c6DA191B270326b55d5C01F5b3B38DB74";
 
 function LogoMark({ size = 28 }: { size?: number }) {
   return (
@@ -57,7 +56,7 @@ export default function Home() {
             <a href="#how">How it reads</a>
             <a href="#stone">The stone</a>
             <a href="#ledger">Tokenomics</a>
-            <a className="btn" href={X_URL} target="_blank" rel="noopener noreferrer">
+            <a className="btn" href="#" target="_blank" rel="noopener noreferrer">
               Follow on X
             </a>
           </div>
@@ -77,7 +76,7 @@ export default function Home() {
               and surfaces the signal before the noise catches up.
             </p>
             <div className="hero-ctas">
-              <a className="btn" href={X_URL} target="_blank" rel="noopener noreferrer">
+              <a className="btn" href="#" target="_blank" rel="noopener noreferrer">
                 Follow on X
               </a>
               <a className="btn-ghost" href="#ledger">
@@ -228,7 +227,7 @@ export default function Home() {
             </div>
             <div className="ledger-row">
               <span>SUPPLY</span>
-              <span>TBA</span>
+              <span>1,000,000,000 LGR</span>
             </div>
             <div className="ledger-row">
               <span>TAX</span>
@@ -240,13 +239,10 @@ export default function Home() {
             </div>
             <div className="ledger-row">
               <span>CONTRACT</span>
-              <span>Launching soon</span>
+              <span>0xEf0A...8DB74</span>
             </div>
           </div>
-          <p className="ledger-note">
-            Figures above are placeholders for this preview site — replace
-            with final numbers before launch.
-          </p>
+
         </div>
       </section>
 
@@ -264,7 +260,7 @@ export default function Home() {
               </p>
             </div>
             <div className="foot-links">
-              <a href={X_URL} target="_blank" rel="noopener noreferrer">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 X
               </a>
               <a href="#how">How it reads</a>
