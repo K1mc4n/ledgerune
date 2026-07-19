@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const CONTRACT_TEXT = "0xEf0A0C5c6DA191B270326b55d5C01F5b3B38DB74";
+const CONTRACT_TEXT = "SOON";
 
 function LogoMark({ size = 28 }: { size?: number }) {
   return (
@@ -239,7 +239,7 @@ export default function Home() {
             </div>
             <div className="ledger-row">
               <span>CONTRACT</span>
-              <span>0xEf0A...8DB74</span>
+              <span> soon </span>
             </div>
           </div>
 
